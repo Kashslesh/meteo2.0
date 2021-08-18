@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+/* font-family: 'Libre Franklin', sans-serif;
+font-family: 'Norican', cursive; */
+html,body {
+    font-family: 'Libre Franklin', sans-serif;
+    height: 100vh;
+    background: url("/img/fontpicture.svg") no-repeat;
+}
+
+header {
+    background-color: transparent;
+}
+.navigation {
+    border-bottom: solid 4px #C2C2C2;
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.logo{
+    margin:  auto 1rem;
+    font-family: 'Norican', cursive;
+    font-size: 2.5rem;
+    font-weight: 450;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color:#a05dda;
+}
+a:focus{
+    color:#a05dda;
+}
+ul {
+    display: flex;
+}
+ul>li {
+    margin:  auto 1rem;
+    font-size: 1.3rem;
+}
+.container{
+    display: flex;
+    height: 87vh;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+.location{
+    height: 3vh;
+    
+}
+.lookingfor{
+    text-align: center;
+    vertical-align: middle;
+}
+input{
+    border-radius: 50px;
+    height: 5vh;
+    outline:none;
+    border: none;
+    width: 17vw;
+    margin-bottom: 2vh;
+}
+:placeholder-shown{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 350;
+    
+}
+input[type="search"] {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    color: rgb(146, 145, 145);
+ }
+.map{
+    display: inherit;
+    align-items: center;
+    padding-right: 5rem;
+}
+.map>img{
+    height: 50vh;
+
+}
+.btn{
+    background: white;
+    border-radius: 50px;
+    height: 5vh;
+    outline:none;
+    border: none;
+    font-weight: 550;
+    width: 6.5vw;
+    font-size: 0.8rem;
+}
+.lookingfor{
+    display: inherit;
+    align-items: center;
+}
+.positionCentre>h1{
+    font-size: 3.6rem;
+    padding-bottom: 3rem;
+    font-weight: 800;
+}
+.positionCentre>h3{
+    padding-bottom: 3rem;
+    font-weight: 800;
+}
+.btn:hover {
+    background: #a05dda;
+    color: white;
+}
+.btn:focus{
+    background: #a05dda;
+    color: white;
+}
+.cards {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    display: none;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 87vh;
+}
+.card{
+    height: 30vh;
+    width: 17vw;
+    border-radius: 10px;
+    display: inherit;
+    flex-direction: column;
+    align-content: center;
+}
+.block{
+    width: 100%;
+    background-color: white !important;
+    height: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 70%;
+    display: inherit;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    opacity: 50%;
+    height: 70%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.images>img {
+    /* height: 8vh; */
+    padding-bottom: 5px;
+}
+.results>button{
+    outline:none;
+    border: none;
+    font-size: 1.2rem;
+    background: transparent;
+}
+.results{
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 17vw;
+    justify-content: center;
+    margin-inline: auto;
+}
+.elementOfListCity:hover{
+    border-bottom: solid 3px #9a5ae2;
+}
+.elementOfListCity:focus{
+    border-bottom:  solid 3px #9a5ae2;
+}
+.elementOfListCity{
+    color:  white;
+}
