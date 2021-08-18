@@ -4,10 +4,15 @@
 font-family: 'Norican', cursive; */
 html,body {
     font-family: 'Libre Franklin', sans-serif;
-    height: 100vh;
-    background: url(/img/fontpicture2.jpg) no-repeat;
 }
-
+body{
+background: rgb(255,238,207);
+background: -moz-linear-gradient(180deg, rgba(255,238,207,1) 0%, rgba(255,176,235,1) 49%, rgba(198,162,255,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(255,238,207,1) 0%, rgba(255,176,235,1) 49%, rgba(198,162,255,1) 100%);
+background: linear-gradient(180deg, rgba(255,238,207,1) 0%, rgba(255,176,235,1) 49%, rgba(198,162,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffeecf",endColorstr="#c6a2ff",GradientType=1);
+height: 100vh;
+}
 header {
     background-color: transparent;
 }
