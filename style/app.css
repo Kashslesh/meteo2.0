@@ -5,7 +5,7 @@ font-family: 'Norican', cursive; */
 html,body {
     font-family: 'Libre Franklin', sans-serif;
     height: 100vh;
-    background: url("img/fontpicture.svg") no-repeat;
+    background: url(img/fontpicture.svg) no-repeat;
 }
 
 header {
