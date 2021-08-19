@@ -9,6 +9,7 @@
   <li>Utilisation d’une API.</li>
   <li>Publication de front-end.</li>
   <li>Réalisation de tests fonctionnels.</li>
+  <li>Réalisation de tests fonctionnels.</li>
 </ul>
 
 
@@ -19,4 +20,4 @@
 
 
 
-Réalisation de tests fonctionnels.
+
