@@ -11,7 +11,7 @@
   <li>Réalisation de tests fonctionnels.</li>
   <li>Réalisation de tests fonctionnels.</li>
 </ul>
-
+<p>La première étape a consisté à créer une mise en page pour l'application, puis à réaliser la mise en page, qui comprend à la fois du HTML et du CSS. </p>
 
 
 
